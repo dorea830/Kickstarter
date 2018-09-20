@@ -1,0 +1,45 @@
+body {
+	background-color: #ffe6ff;
+	font-family: 'Karla', sans-serif;
+}
+
+img {
+	width: 50%;
+	float: left;
+	margin: 20px;
+}
+
+.tac {
+	text-align: center;
+}
+
+.transbox { 
+	width: 500px;
+	float: right;
+	background-color: #f7d4f7;
+	margin: 20px;
+	padding: 10px;
+	line-height: 30px;
+ }
+
+#pins {
+	font-family: 'Spirax', cursive;
+	font-size: 30px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	background-color: white;
+	float: right;
+	padding: 10px;
+	margin: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+
+
+.caption {
+	font-size: 25px;
+}
