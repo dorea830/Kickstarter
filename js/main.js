@@ -27,73 +27,73 @@ backers.textContent = pins.backers;
 var	pledgeLevels = [{
 		name: 'Pledge $15 or more',
 		price: 15, 
-		features: ['1 pin', 'bonus charm'],
+		features: '1 pin + a bonus charm',
 		available: 'Yes!'
 	},
 	{
 		name: 'Pledge $28 or more',
 		price: 28, 
-		features: ['2 pins', 'bonus charm'],
+		features: '2 pins + a bonus charm',
 		available: 'Yes!'
 	},
 	{
 		name: 'Pledge $40 or more',
 		price: 40, 
-		features: ['3 pins', 'bonus charm'],
+		features: '3 pins + a bonus charm',
 		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $50 or more',
 		price: 50, 
-		includes: ['4 pins', 'bonus charm'],
+		includes: '4 pins + a bonus charm',
 		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $59 or more',
 		price: 59, 
-		features: ['5 pins', 'bonus charm'],
+		features: '5 pins + a bonus charm',
 		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $66 or more',
 		price: 66, 
-		features: ['6 pins', 'bonus charm'],
+		features: '6 pins + a bonus charm',
 		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $73 or more',
 		price: 73, 
-		features: ['7 pins', 'bonus charm'],
+		features: '7 pins + a bonus charm',
 		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $79 or more',
 		price: 79, 
-		features: ['8 pins', 'bonus charm'],
+		features: '8 pins + a bonus charm',
 		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $85 or more',
 		price: 85, 
-		features: ['9 pins', 'bonus charm'],
+		features: '9 pins + a bonus charm',
 		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $90 or more',
 		price: 90, 
-		features: ['10 pins', 'bonus charm'],
+		features: '10 pins + a bonus charm',
 		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $95 or more',
 		price: 95, 
-		features: ['11 pins'],
+		features: '11 pins',
 		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $99 or more',
 		price: 99, 
-		features: ['12 pins'],
+		features: '12 pins',
 		available: 'Yes!'	
 	}
 	];
