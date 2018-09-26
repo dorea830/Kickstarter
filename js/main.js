@@ -2,8 +2,8 @@ var pins = {
 	name: "Pokemon Poke Puff Enamel Pins 2",
 	goal: 400,
 	description: "A continuation of the first Pokepuff enamel pin kickstarter.",
-	pledges: 139333,
-	backers: 305,
+	pledges: 14041,
+	backers: 307,
 };
 
 console.log(pins);
@@ -24,22 +24,22 @@ var backers = document.getElementById('backers');
 backers.textContent = pins.backers;
 
 
-pledgeLevels: [{
+var	pledgeLevels: [{
 		name: 'Pledge $15 or more',
 		price: 15, 
-		includes: ['1 pin', 'bonus charm'],
+		features: ['1 pin', 'bonus charm'],
 		available: true
 	},
 	{
 		name: 'Pledge $28 or more',
 		price: 28, 
-		includes: ['2 pins', 'bonus charm'],
+		features: ['2 pins', 'bonus charm'],
 		available: true
 	},
 	{
 		name: 'Pledge $40 or more',
 		price: 40, 
-		includes: ['3 pins', 'bonus charm'],
+		features: ['3 pins', 'bonus charm'],
 		available: true	
 	},
 	{
@@ -51,52 +51,63 @@ pledgeLevels: [{
 	{
 		name: 'Pledge $59 or more',
 		price: 59, 
-		includes: ['5 pins', 'bonus charm'],
+		features: ['5 pins', 'bonus charm'],
 		available: true	
 	},
 	{
 		name: 'Pledge $66 or more',
 		price: 66, 
-		includes: ['6 pins', 'bonus charm'],
+		features: ['6 pins', 'bonus charm'],
 		available: true	
 	},
 	{
 		name: 'Pledge $73 or more',
 		price: 73, 
-		includes: ['7 pins', 'bonus charm'],
+		features: ['7 pins', 'bonus charm'],
 		available: true	
 	},
 	{
 		name: 'Pledge $79 or more',
 		price: 79, 
-		includes: ['8 pins', 'bonus charm'],
+		features: ['8 pins', 'bonus charm'],
 		available: true	
 	},
 	{
 		name: 'Pledge $85 or more',
 		price: 85, 
-		includes: ['9 pins', 'bonus charm'],
+		features: ['9 pins', 'bonus charm'],
 		available: true	
 	},
 	{
 		name: 'Pledge $90 or more',
 		price: 90, 
-		includes: ['10 pins', 'bonus charm'],
+		features: ['10 pins', 'bonus charm'],
 		available: true	
 	},
 	{
 		name: 'Pledge $95 or more',
 		price: 95, 
-		includes: ['11 pins'],
+		features: ['11 pins'],
 		available: true	
 	},
 	{
 		name: 'Pledge $99 or more',
 		price: 99, 
-		includes: ['12 pins'],
+		features: ['12 pins'],
 		available: true	
 	}
 	];
+
+var pledgeLevelName, price, features, available;
+pledgeLevelName = document.getElementById('pledgeLevelName');
+price = document.getElementById('price');
+features = document.getElementById('features');
+available = document.getElementById('available');
+
+pledgeLevelName.textContent = pledgeLevels.name;
+price.textContent = '$' + pledgeLevels.price; 
+features.textContent = pledgeLevels.features;
+available.textContent = pledgeLevels.available;
 
 
 
