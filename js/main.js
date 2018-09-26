@@ -24,90 +24,102 @@ var backers = document.getElementById('backers');
 backers.textContent = pins.backers;
 
 
-var	pledgeLevels: [{
+var	pledgeLevels = [{
 		name: 'Pledge $15 or more',
 		price: 15, 
 		features: ['1 pin', 'bonus charm'],
-		available: true
+		available: 'Yes!'
 	},
 	{
 		name: 'Pledge $28 or more',
 		price: 28, 
 		features: ['2 pins', 'bonus charm'],
-		available: true
+		available: 'Yes!'
 	},
 	{
 		name: 'Pledge $40 or more',
 		price: 40, 
 		features: ['3 pins', 'bonus charm'],
-		available: true	
+		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $50 or more',
 		price: 50, 
 		includes: ['4 pins', 'bonus charm'],
-		available: true	
+		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $59 or more',
 		price: 59, 
 		features: ['5 pins', 'bonus charm'],
-		available: true	
+		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $66 or more',
 		price: 66, 
 		features: ['6 pins', 'bonus charm'],
-		available: true	
+		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $73 or more',
 		price: 73, 
 		features: ['7 pins', 'bonus charm'],
-		available: true	
+		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $79 or more',
 		price: 79, 
 		features: ['8 pins', 'bonus charm'],
-		available: true	
+		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $85 or more',
 		price: 85, 
 		features: ['9 pins', 'bonus charm'],
-		available: true	
+		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $90 or more',
 		price: 90, 
 		features: ['10 pins', 'bonus charm'],
-		available: true	
+		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $95 or more',
 		price: 95, 
 		features: ['11 pins'],
-		available: true	
+		available: 'Yes!'	
 	},
 	{
 		name: 'Pledge $99 or more',
 		price: 99, 
 		features: ['12 pins'],
-		available: true	
+		available: 'Yes!'	
 	}
 	];
 
 var pledgeLevelName, price, features, available;
-pledgeLevelName = document.getElementById('pledgeLevelName');
+pledgeLevelName = document.getElementById('pledgeLevelName'); 
 price = document.getElementById('price');
 features = document.getElementById('features');
 available = document.getElementById('available');
 
-pledgeLevelName.textContent = pledgeLevels.name;
+name.textContent = pledgeLevels.name;
 price.textContent = '$' + pledgeLevels.price; 
 features.textContent = pledgeLevels.features;
 available.textContent = pledgeLevels.available;
+
+var container = document.getElementById( 'pledge-container' );
+
+for ( i = 0; i < pledgeLevels.length; i++ ) {
+
+console.log( pledgeLevels[i] );
+container.innerHTML +=  pledgeLevels[i].name + '</h1>';
+container.innerHTML += 'Price: ' + '$' + pledgeLevels[i].price + '</h1>';
+container.innerHTML += 'Features: ' + pledgeLevels[i].features + '</h1>';
+container.innerHTML += 'Available: ' + pledgeLevels[i].available + '</h1>';
+
+
 
 
 
@@ -132,3 +144,10 @@ var x = setInterval(function() {
         document.getElementById("timer").innerHTML = "EXPIRED";
     }
 }, 1000);
+}
+
+
+
+
+
+
