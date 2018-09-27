@@ -13,6 +13,10 @@ img {
 	text-align: center;
 }
 
+.tal {
+	text-align: left;
+}
+
 .transbox { 
 	width: 500px;
 	float: right;
@@ -43,3 +47,8 @@ img {
 .caption {
 	font-size: 25px;
 }
+
+#pledge-container {
+	line-height: 23px;
+}
+

@@ -114,10 +114,10 @@ var container = document.getElementById( 'pledge-container' );
 for ( i = 0; i < pledgeLevels.length; i++ ) {
 
 console.log( pledgeLevels[i] );
-container.innerHTML +=  pledgeLevels[i].name + '</h1>';
-container.innerHTML += 'Price: ' + '$' + pledgeLevels[i].price + '</h1>';
-container.innerHTML += 'Features: ' + pledgeLevels[i].features + '</h1>';
-container.innerHTML += 'Available: ' + pledgeLevels[i].available + '</h1>';
+container.innerHTML +=  '<h1>' + pledgeLevels[i].name + '</h1>';
+container.innerHTML += '<h2>' + 'Price: ' + '$' + pledgeLevels[i].price + '</h2>';
+container.innerHTML += '<h3>' + 'Features: ' + pledgeLevels[i].features + '</h3>';
+container.innerHTML += '<h4>' + 'Available: ' + pledgeLevels[i].available + '</h4>' + '<br>';
 
 
 
